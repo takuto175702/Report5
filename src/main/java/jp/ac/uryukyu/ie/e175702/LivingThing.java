@@ -49,7 +49,6 @@ public class LivingThing {
         return dead;
     }
 
-
     public void attack(LivingThing opponent){
         if(dead == false) {
             int damage = (int)(Math.random() * attack);
